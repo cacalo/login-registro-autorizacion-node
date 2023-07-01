@@ -1,0 +1,88 @@
+html {
+  /* Sacado de https://css-pattern.com/ */
+  --s: 200px; /* control the size */
+  --c: #fff; /* first color */
+  
+  --_g: #0000 8%,var(--c) 0 17%,#0000 0 58%;
+  background: 
+    linear-gradient(135deg,#0000 20.5%,var(--c) 0 29.5%,#0000 0) 0 calc(var(--s)/4),
+    linear-gradient( 45deg,var(--_g)) calc(var(--s)/2) 0,
+    linear-gradient(135deg,var(--_g),var(--c) 0 67%,#0000 0),        
+    linear-gradient( 45deg,var(--_g),var(--c) 0 67%,#0000 0 83%,var(--c) 0 92%,#0000 0),
+    #6494eda0; /* second color */
+  background-size: var(--s) var(--s);
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+p, input, button, a{
+  font-size: larger;
+}
+
+h1{
+  margin: 0;
+}
+
+.form-container{
+  max-width: 400px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+input, button{
+  border-radius: 4px;
+  padding: 15px 30px;
+  border: none;
+}
+
+input{
+  background-color: rgba(0, 0, 0, 0.05)
+}
+
+button{
+  background-color: #6495ed;
+  color: white;
+  cursor: pointer;
+}
+
+a{
+  color:cornflowerblue;
+}
+
+.error{
+  color: rgb(255, 83, 83);
+}
+
+.escondido{
+  display: none;
+}
+
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+
+.form-container, form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form+p, form p{
+  text-align: center;
+}
