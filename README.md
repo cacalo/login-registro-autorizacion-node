@@ -16,3 +16,6 @@ Aparte:
 Vas a tener que entrar a la carpeta del proyecto y crear un archivo .env similar al .env_ejemplo (incluso le pueden cambiar el nombre a ese y listo).
 
 Si querés podés usar mi usuario de prueba cuyo username y password es "pruebaprueba".
+
+Si querés ver como hice este proyecto lo podés hacer acá! https://www.youtube.com/watch?v=fjuIeiA8QkE&t=3074s
+Y acá para la segunda parte: https://youtu.be/V1DkTKtQuEY
