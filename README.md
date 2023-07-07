@@ -17,5 +17,6 @@ Vas a tener que entrar a la carpeta del proyecto y crear un archivo .env similar
 
 Si querés podés usar mi usuario de prueba cuyo username y password es "pruebaprueba".
 
-Si querés ver como hice este proyecto lo podés hacer acá! https://www.youtube.com/watch?v=fjuIeiA8QkE&t=3074s
+Este proyecto lo hice para practicar hacerlo en vivo, lo terminé haciendo de nuevo en este otro repositorio https://github.com/cacalo/Registro-y-login-nodejs-express-en-vivo
+Si querés ver como hice ese proyecto lo podés hacer acá! https://www.youtube.com/watch?v=fjuIeiA8QkE&t=3074s
 Y acá para la segunda parte: https://youtu.be/V1DkTKtQuEY
