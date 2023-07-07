@@ -21,10 +21,10 @@ function revisarValidezCookie(req){
     const cookieJTW = req.headers.cookie.split('; ').find(cookie => cookie.startsWith("jwt")).substring(4);
     const decodificada = jsonwebtoken.verify(cookieJTW, process.env.JWT_SECRET);
     let result = usuarios.find(usuario => usuario.user === decodificada.user);
-    if(!result){
+    if(!result || !result.verificado){
       return false;
     }
-    req.user= result[0];
+    req.body.user=result;
     return true
   }
   catch{
